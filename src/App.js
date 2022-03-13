@@ -1,11 +1,11 @@
 import './App.css';
-import Home from './home/home';
-import ContactUs from './contact_us/contact_us';
+import Home from './home';
+import ContactUs from './contact_us';
 
 const App = () => {
   return (
     <div className="App">
-      <Home />
+      <Home /> 
       <ContactUs />
     </div>
   );
